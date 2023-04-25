@@ -63,8 +63,8 @@ img {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 500%;
+    max-height: 500%;
 }
 
 .rectangle {
@@ -74,7 +74,6 @@ img {
     width: 100%;
     height: 38rem;
     background-color: #000;
-    border: 1px solid #fff;
     overflow: hidden; 
 }
 
@@ -83,7 +82,7 @@ img {
     width: 100%;
     height: 38rem;
     background-color: #fff;
-    border: 1px solid #fff;
+
     overflow: hidden; 
 }
 
@@ -93,7 +92,6 @@ img {
     width: 100%;
     height: 38rem;
     background-color: #000;
-    border: 1px solid #fff;
     overflow: hidden; 
 }
 
@@ -103,13 +101,19 @@ img {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 21rem;
-    height: 30rem;
+    height: 20rem;
     overflow: hidden;
-    border: 1px solid #fff;
+    
 
 }
 
 .big-image {
-    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 21rem;
+    height: 20rem;
+    overflow: hidden;
 }
 
