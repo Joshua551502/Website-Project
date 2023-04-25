@@ -10,8 +10,8 @@ nav {
     justify-content: center;
     align-items: center;
     z-index: 1;
-  }
-  
+}
+
 
 nav ul {
     list-style-type: none;
@@ -35,53 +35,6 @@ body {
     margin: 0;
 }
 
-.featured {
-    text-align: center;
-    color: #fff;
-    width: 100%;
-    margin-top: 3rem;
-}
-
-.featured-option1 {
-    height: 38rem;
-    width: 100%;
-    display: inline-block;
-}
-
-.featured-option2 {
-    color: #000;
-    height: 38rem;
-    width: 100%;
-    display: inline-block;
-}
-
-.featured-option3 {
-    height: 38rem;
-    width: 100%;
-    display: inline-block;
-}
-
-.option-background1 {
-    height: 38rem;
-    background-color: #000;
-    padding: 1rem;
-    position: relative;
-}
-
-.option-background2 {
-    height: 38rem;
-    background-color: #fff;
-    padding: 1rem;
-    position: relative;
-}
-
-.option-background3 {
-    height: 38rem;
-    background-color: #000;
-    padding: 1rem;
-    position: relative;
-}
-
 .top-text {
     text-align: center;
 }
@@ -96,13 +49,67 @@ body {
 
 .link {
     color: #53b5ff;
+    z-index: 10;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-img{
-    width: 100%;
-    height: 100%;
+img {
+    vertical-align: middle;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
 }
+
+.rectangle {
+    color: #fff;
+    position: relative;
+    margin-top: 3rem;
+    width: 100%;
+    height: 38rem;
+    background-color: #000;
+    border: 1px solid #fff;
+    overflow: hidden; 
+}
+
+.rectangle2 {
+    position: relative;
+    width: 100%;
+    height: 38rem;
+    background-color: #fff;
+    border: 1px solid #fff;
+    overflow: hidden; 
+}
+
+.rectangle3 {
+    color: #fff;
+    position: relative;
+    width: 100%;
+    height: 38rem;
+    background-color: #000;
+    border: 1px solid #fff;
+    overflow: hidden; 
+}
+
+.image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 21rem;
+    height: 30rem;
+    overflow: hidden;
+    border: 1px solid #fff;
+
+}
+
+.big-image {
+    width: 500px;
+}
+
